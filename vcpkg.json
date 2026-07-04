@@ -1,0 +1,9 @@
+{
+  "name" : "cpp-mongo-migrate",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "fafcc0e93bfba303e5e48790def745d27e6d449b",
+  "dependencies" : [ {
+    "name" : "mongo-cxx-driver",
+    "version>=" : "4.0.0"
+  } ]
+}

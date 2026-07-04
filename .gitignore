@@ -1,0 +1,50 @@
+# ---- Build output ----
+build/
+cmake-build-*/
+out/
+install/
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+compile_commands.json
+
+# ---- Ninja / Make ----
+.ninja_deps
+.ninja_log
+*.ninja
+
+# ---- vcpkg ----
+# vcpkg.json is tracked; installed/downloaded artifacts are not.
+vcpkg_installed/
+vcpkg-manifest-install.log
+
+# ---- Compiled objects / binaries ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+mongo-migrate
+
+# ---- JetBrains / CLion ----
+.idea/
+*.iml
+
+# ---- Editors ----
+.vscode/
+*.swp
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
